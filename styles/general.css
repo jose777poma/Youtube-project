@@ -1,0 +1,8 @@
+body {
+  font-family: "Roboto";
+  font-size: 16px;
+  background-color: rgb(226, 226, 226);
+  padding-bottom: 3000px;
+  margin: 0;
+  /* overflow-x: hidden; */
+}

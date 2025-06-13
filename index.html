@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YouTube - Project</title>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
     <header>
-        
+      <!-- HEADER left-section -->
+      <div class="left-section">
+        <img class="hamburger-menu-icon" src="icons/hamburger-menu.png" />
+        <img class="youtube-logo-icon" src="icons/youtube-logo.png" alt="" />
+      </div>
+      <!-- HEADER middle-section -->
+      <div class="middle-section">
+        <div class="middle-section-inside">
+          <input class="search-bar" type="text" placeholder="Search" />
+          <button class="search-button">
+            <img class="search-icon" src="icons/search.png" />
+            <div class="tooltip">Search</div>
+          </button>
+          <button class="voice-search-button">
+            <img class="voice-search-icon" src="icons/voice-search-icon.png" />
+            <div class="tooltip">Search with your voice</div>
+          </button>
+        </div>
+      </div>
+      <!-- HEADER right-section -->
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img src="icons/upload.png" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img src="icons/youtube-apps.png" />
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img src="icons/notifications.png" />
+          <div class="tooltip">Notifications</div>
+          <div class="notifications-number">3</div>
+        </div>
+        <img class="my-channel-icon" src="channel-pictures/my-channel.png" />
+      </div>
     </header>
-</body>
+  </body>
 </html>
